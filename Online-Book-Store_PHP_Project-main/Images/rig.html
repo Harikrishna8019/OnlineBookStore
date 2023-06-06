@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+    form {
+        text-align:center;
+        
+    }
+body{
+    background-color: bisque;
+
+}
+</style>
+    
+<body>
+    <h2 style="text-align:center">Registration Form</h2>
+    <form method="POST" action="regt.php">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <input type="submit" value="Register">
+    
+    </form>
+</body>
+</html>
